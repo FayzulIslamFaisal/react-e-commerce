@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "countryName": "Japan",
+    "capital": "Tokyo",
+    "population": 125800000,
+    "interestingFact": "Japan has more than 5 million vending machines."
+  },
+  {
+    "id": 2,
+    "countryName": "Brazil",
+    "capital": "Brasília",
+    "population": 214300000,
+    "interestingFact": "The Amazon Rainforest in Brazil produces 20% of the world's oxygen."
+  },
+  {
+    "id": 3,
+    "countryName": "Iceland",
+    "capital": "Reykjavík",
+    "population": 376000,
+    "interestingFact": "Iceland has no army, navy, or air force."
+  },
+  {
+    "id": 4,
+    "countryName": "Australia",
+    "capital": "Canberra",
+    "population": 26000000,
+    "interestingFact": "Australia is home to more kangaroos than humans."
+  },
+  {
+    "id": 5,
+    "countryName": "India",
+    "capital": "New Delhi",
+    "population": 1401000000,
+    "interestingFact": "India is the world's largest democracy."
+  },
+  {
+    "id": 6,
+    "countryName": "Egypt",
+    "capital": "Cairo",
+    "population": 110990000,
+    "interestingFact": "Egyptian pyramids were constructed over 4,500 years ago."
+  },
+  {
+    "id": 7,
+    "countryName": "Finland",
+    "capital": "Helsinki",
+    "population": 5560000,
+    "interestingFact": "Finland has more saunas than cars."
+  },
+  {
+    "id": 8,
+    "countryName": "Canada",
+    "capital": "Ottawa",
+    "population": 38960000,
+    "interestingFact": "Canada has the longest coastline in the world."
+  },
+  {
+    "id": 9,
+    "countryName": "Chile",
+    "capital": "Santiago",
+    "population": 19400000,
+    "interestingFact": "Chile is home to the driest desert on Earth, the Atacama Desert."
+  },
+  {
+    "id": 10,
+    "countryName": "Norway",
+    "capital": "Oslo",
+    "population": 5500000,
+    "interestingFact": "Norway introduced salmon sushi to Japan."
+  },
+  {
+    "id": 11,
+    "countryName": "Russia",
+    "capital": "Moscow",
+    "population": 143400000,
+    "interestingFact": "Russia spans 11 time zones across two continents."
+  },
+  {
+    "id": 12,
+    "countryName": "China",
+    "capital": "Beijing",
+    "population": 1412000000,
+    "interestingFact": "China is the only country to have a giant panda as a national animal."
+  },
+  {
+    "id": 13,
+    "countryName": "Madagascar",
+    "capital": "Antananarivo",
+    "population": 29270000,
+    "interestingFact": "Madagascar is home to 70% of the world's lemur species."
+  },
+  {
+    "id": 14,
+    "countryName": "South Africa",
+    "capital": "Pretoria",
+    "population": 60460000,
+    "interestingFact": "South Africa has three capital cities: Pretoria, Bloemfontein, and Cape Town."
+  },
+  {
+    "id": 15,
+    "countryName": "Mexico",
+    "capital": "Mexico City",
+    "population": 128900000,
+    "interestingFact": "Mexico City is sinking about 10 inches every year due to the soft ground it's built on."
+  },
+  {
+    "id": 16,
+    "countryName": "Switzerland",
+    "capital": "Bern",
+    "population": 8750000,
+    "interestingFact": "Switzerland has 7,000 lakes, covering 6% of its surface area."
+  },
+  {
+    "id": 17,
+    "countryName": "Greece",
+    "capital": "Athens",
+    "population": 10720000,
+    "interestingFact": "Greece has more archaeological museums than any other country."
+  },
+  {
+    "id": 18,
+    "countryName": "New Zealand",
+    "capital": "Wellington",
+    "population": 5260000,
+    "interestingFact": "New Zealand was the first country to grant women the right to vote in 1893."
+  },
+  {
+    "id": 19,
+    "countryName": "Turkey",
+    "capital": "Ankara",
+    "population": 86900000,
+    "interestingFact": "The oldest known human settlement, Göbekli Tepe, is in Turkey and dates back over 11,000 years."
+  },
+  {
+    "id": 20,
+    "countryName": "Italy",
+    "capital": "Rome",
+    "population": 58850000,
+    "interestingFact": "Italy has the most UNESCO World Heritage Sites of any country, with over 50."
+  }
+]
