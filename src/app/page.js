@@ -5,6 +5,7 @@ import HomeProductSearch from "./components/homeComponent/HomeProductSearch";
 import HomeCategory from "./components/homeComponent/HomeCategory";
 import HomeCategoryShowCase from "./components/homeComponent/HomeCategoryShowCase";
 import Register from "./components/homeComponent/Register";
+import LocationSprade from "./components/homeComponent/LocationSprade";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <HomeCategory />
       <HomeCategoryShowCase />
       <Register />
+      {/* <LocationSprade /> */}
       {/* <About /> */}
     </>
   );
