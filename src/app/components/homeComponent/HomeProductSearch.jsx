@@ -12,14 +12,13 @@ const HomeProductSearch = () => {
     const searchTerm = event.target.value;
     setSearchProduct(searchTerm);
 
-    // Only trigger filtering if search term length is 3 or more
     if (searchTerm.length >= 3) {
       const filterData = productData.filter((product) =>
         product?.name.toLowerCase().includes(searchTerm.toLowerCase())
       );
       setFilterProducts(filterData);
     } else {
-      setFilterProducts([]); // Reset to empty if search is less than 3 characters
+      setFilterProducts([]);
     }
   };
 
@@ -41,18 +40,22 @@ const HomeProductSearch = () => {
             />
           </div>
         </div>
-        <ul className="mt-6">
+        <ul className="mt-6 w-[750px] mx-auto">
           {searchProduct.length >= 3 && filterProducts.length > 0 ? (
             filterProducts.map((product) => (
               <li
                 key={product.id}
                 className="text-white px-4 mb-2 py-2 bg-slate-600"
               >
-                <Link href={`/shop/${product?.id}`}>{product.name}</Link>
+                <Link href={`/shop/${product?.id}`} className="block">
+                  {product.name}
+                </Link>
               </li>
             ))
           ) : searchProduct.length >= 3 && filterProducts.length === 0 ? (
-            <p className="text-white">No products found</p>
+            <h2 className="text-white text-center capitalize px-4 py-8 bg-slate-600 text-2xl">
+              No products found
+            </h2>
           ) : null}
         </ul>
       </div>
