@@ -4,14 +4,16 @@ import About from "./components/About";
 import HomeProductSearch from "./components/homeComponent/HomeProductSearch";
 import HomeCategory from "./components/homeComponent/HomeCategory";
 import HomeCategoryShowCase from "./components/homeComponent/HomeCategoryShowCase";
+import Register from "./components/homeComponent/Register";
 
 export default function Home() {
   return (
     <>
       <HeroSection />
       <HomeProductSearch />
-      <HomeCategory/>
-      <HomeCategoryShowCase/>
+      <HomeCategory />
+      <HomeCategoryShowCase />
+      <Register />
       {/* <About /> */}
     </>
   );

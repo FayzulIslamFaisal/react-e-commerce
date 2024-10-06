@@ -28,7 +28,7 @@ const HomeProductSearch = () => {
         <h2 className="text-center font-semibold text-4xl capitalize mb-3">
           Search Your One From Thousands of Products
         </h2>
-        <div className="flex w-1/2 mx-auto pt-6">
+        <div className="flex w-full md:w-1/2 mx-auto pt-6">
           <SelectedCategory select={"all"} />
           <div className="flex-1">
             <input
