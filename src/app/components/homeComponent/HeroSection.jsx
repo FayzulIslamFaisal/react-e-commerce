@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <div className="flex items-center col-span-1 md:col-span-2 gap-2 md:gap-5 container mx-auto text-white py-[50px] md:pt-[100px] px-4  ">
       <div className="flex-1">
-        <h1 className="capitalize text-3xl md:text-5xl mb-4 ">
+        <h1 className="capitalize text-3xl md:text-5xl mb-4 leading-normal ">
           Explore the world, one country at a time.
         </h1>
         <p className="text-lg pb-4">
