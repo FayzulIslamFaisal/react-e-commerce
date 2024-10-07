@@ -26,10 +26,23 @@ const ShopWrapper = () => {
     setCurrentPage(pageNumber);
   };
 
-  // function for selected category
+  // Function for selected category
   const [selectedCategory, setSelectedCategory] = useState("All");
   const menuItem = ["All", ...new Set(data.map((val) => val.category))];
-  console.log("menuItem----->", menuItem);
+
+  const onFilterItem = (catItem) => {
+    setCurrentPage(1); // Reset pagination when category changes
+
+    if (catItem === "All") {
+      setProducts(data);
+    } else {
+      const filteredItems = data.filter(
+        (productCat) => productCat.category === catItem
+      );
+      setProducts(filteredItems);
+    }
+    setSelectedCategory(catItem);
+  };
 
   return (
     <div className="container mx-auto px-4 py-12 text-white">
@@ -87,7 +100,11 @@ const ShopWrapper = () => {
           <div className="bg-gray-600 px-4 py-2">
             {/* Placeholder content for sidebar */}
             <Search products={products} gridList={gridList} />
-            <ShopCategory />
+            <ShopCategory
+              menuItem={menuItem}
+              handleFfilterItem={onFilterItem}
+              selectedCategory={selectedCategory}
+            />
           </div>
         </div>
       </div>

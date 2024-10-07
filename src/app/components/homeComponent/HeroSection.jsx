@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FaLongArrowAltRight } from "react-icons/fa";
 
 const HeroSection = () => {
@@ -12,9 +13,12 @@ const HeroSection = () => {
           Exploring the world one country at a time is an amazing way to immerse
           yourself in diverse cultures, landscapes, and histories.
         </p>
-        <button className="flex gap-2 items-center border-white border px-4 py-2 rounded-lg hover:bg-white hover:text-black ">
+        <Link
+          href={`/country`}
+          className="flex w-max gap-2 items-center border-white border px-4 py-2 rounded-lg hover:bg-white hover:text-black "
+        >
           Start Exploring <FaLongArrowAltRight />
-        </button>
+        </Link>
       </div>
       <div className="w-full md:h-[400px] h-[300px] relative flex-1">
         <Image
