@@ -2,6 +2,7 @@
 const ShopCategory = ({ menuItem, handleFfilterItem, selectedCategory }) => {
   return (
     <div className="bg-gray-700 mt-8 px-4 py-3">
+      <h4 className="mb-3">All Category</h4>
       <ul className="grid grid-cols-2 gap-2">
         {menuItem &&
           menuItem.map((item, index) => {

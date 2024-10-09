@@ -8,6 +8,7 @@ import ProductCards from "./ProductCards";
 import Pagination from "./Pagination";
 import Search from "./Search";
 import ShopCategory from "./ShopCategory";
+import PopularPost from "./PopularPost";
 
 const ShopWrapper = () => {
   const [gridList, setGridList] = useState(true);
@@ -105,6 +106,7 @@ const ShopWrapper = () => {
               handleFfilterItem={onFilterItem}
               selectedCategory={selectedCategory}
             />
+            <PopularPost />
           </div>
         </div>
       </div>
