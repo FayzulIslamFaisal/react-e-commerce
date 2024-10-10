@@ -9,6 +9,7 @@ import Pagination from "./Pagination";
 import Search from "./Search";
 import ShopCategory from "./ShopCategory";
 import PopularPost from "./PopularPost";
+import PopularTags from "./PopularTags";
 
 const ShopWrapper = () => {
   const [gridList, setGridList] = useState(true);
@@ -48,7 +49,7 @@ const ShopWrapper = () => {
   return (
     <div className="container mx-auto px-4 py-12 text-white">
       <PageHeader pageTitle="Shop Page" currentPage="Shop" />
-      <div className="flex gap-5 py-16">
+      <div className="lg:flex gap-5 py-16">
         {/* Products Section */}
         <div className="w-full lg:w-3/4">
           <div className="flex items-center justify-between bg-gray-600 px-4 py-4">
@@ -107,6 +108,7 @@ const ShopWrapper = () => {
               selectedCategory={selectedCategory}
             />
             <PopularPost />
+            <PopularTags />
           </div>
         </div>
       </div>

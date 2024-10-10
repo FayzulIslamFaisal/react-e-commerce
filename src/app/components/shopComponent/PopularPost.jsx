@@ -39,17 +39,20 @@ const PopularPost = () => {
       <h4>{title}</h4>
       <div className="">
         {postList &&
-          postList?.map((item) => {
+          postList?.map((blog) => {
             return (
-              <div key={item.id} className="my-3 bg-gray-500">
-                <Link href="" className="flex gap-3 items-center">
+              <div key={blog.id} className="my-3 bg-gray-500">
+                <Link
+                  href={`/blog/${blog?.id}`}
+                  className="flex gap-3 items-center"
+                >
                   <Image
-                    src={item?.imgUrl}
+                    src={blog?.imgUrl}
                     width={60}
                     height={60}
-                    alt={item?.imgAlt}
+                    alt={blog?.imgAlt}
                   />
-                  <p>{item?.title}</p>
+                  <p>{blog?.title}</p>
                 </Link>
               </div>
             );
