@@ -20,7 +20,7 @@ const ProductDetilsWrapper = ({ filterProId }) => {
             </div>
             <ProductReview />
           </div>
-          <div className="w-full lg:w-[30%]">right</div>
+          <div className="w-full lg:w-[30%]">right side area</div>
         </div>
       </div>
     </>
