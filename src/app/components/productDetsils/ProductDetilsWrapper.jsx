@@ -1,6 +1,7 @@
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import ProductImageSLider from "./ProductImageSLider";
+import ProductDetilsRight from "./ProductDetilsRight";
 const ProductDisplay = dynamic(() => import("./ProductDisplay"), {
   ssr: false,
 });
@@ -20,7 +21,7 @@ const ProductDetilsWrapper = ({ filterProId }) => {
             </div>
             <ProductReview />
           </div>
-          <div className="w-full lg:w-[30%]">right side area</div>
+          <ProductDetilsRight />
         </div>
       </div>
     </>

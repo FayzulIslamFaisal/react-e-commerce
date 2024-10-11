@@ -6,7 +6,9 @@ const notFound = () => {
       <div className="text-white">
         <h2>Not Found</h2>
         <p>Could not find requested resource</p>
-        <Link href="/">Return Home</Link>
+        <Link className="bg-gray-700 px-5 py-2 " href="/">
+          Return Home
+        </Link>
       </div>
     </div>
   );
