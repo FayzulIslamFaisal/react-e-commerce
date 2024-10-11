@@ -8,9 +8,9 @@ const ProductReviewInfo = ({ ReviewList, reviewTitle }) => {
     <div className="bg-gray-700 mt-4 p-5">
       <ul className="pb-5">
         {ReviewList &&
-          ReviewList.map((item) => {
+          ReviewList.map((item, index) => {
             return (
-              <li className="flex gap-5 mb-3 bg-gray-800 p-4">
+              <li key={index} className="flex gap-5 mb-3 bg-gray-800 p-4">
                 <div className=" relative w-[100px] h-[100px] ">
                   <Image
                     src={item?.imgUrl}
