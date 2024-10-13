@@ -47,7 +47,7 @@ const BlogDetailsWrapper = ({ blog_params_Id }) => {
               />
             </div>
             <blockquote className="bg-gray-700 px-4 py-6 mt-5 ">
-              " {""} {blogDetailsInfo?.desc} {""} "
+              {""} {blogDetailsInfo?.desc} {""}
             </blockquote>
           </div>
           <p className="pt-5">
